@@ -83,7 +83,7 @@ To perform the task, different activities were carried out in 4 stages:
 
     - In the third stage, the different models are trained and evaluated to understand their behavior, selecting the best model.
 
-- In the fourth stage, the model that has delivered the best F1-macro score is selected to subsequently classify new clients data.
+    - In the fourth stage, the model that has delivered the best F1-macro score is selected to subsequently classify new clients data.
 
 
 #### [top](#table-of-contents)
