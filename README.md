@@ -9,8 +9,6 @@
 - [Decision-making process](#decision-making-process)
     - [Data Pipeline](#data-pipeline)
 
-- [Final Thoughts](#final-thoughts)
-
 
 
 ## Repository Content 
@@ -73,29 +71,22 @@ This is a binary classification problem that divides customers into two groups: 
 --------
 #### Data Pipeline
 
-  ![Data-pipeline](https://user-images.githubusercontent.com/91080406/191982034-bd65086b-8e39-4e3c-a59d-986e32251e3c.png)
+  
+  ![Data-pipeline_bank](https://user-images.githubusercontent.com/91080406/231605394-ee2bb067-bf94-4e91-9b8c-59d12642d163.png)
 
 
 To perform the task, different activities were carried out in 4 stages:
 
-- In the first stage, the libraries needed to perform the different tasks are loaded, the images (files) are loaded and an exploratory analysis will be performed on these, then they will be transformed to data suitable for the task in this case a matrix, finally some kind of pre-processing will be performed.
+    - In the first stage, the libraries needed to perform the different tasks are loaded, the data are loaded and an exploratory analysis will be performed,  finally the data will be split before any preprocessing.
 
-- In the second stage, different CNN models are built, a pre-trained model is loaded to perform a model with learning transfer, the error function to be used in both types of models is defined.
+    - In the second stage, the categorical features are preprocessed, a data balancing procedure is performed on the target variable and a feature importance process is carried out to select those that are necessary to predict the customers that may abandon the bank's service.
 
-- In the third stage, the different models are trained and evaluated to understand their behavior.
+    - In the third stage, the different models are trained and evaluated to understand their behavior, selecting the best model.
 
-- In the fourth stage, the model that has delivered the best F1-macro score is selected to subsequently classify the images.
+- In the fourth stage, the model that has delivered the best F1-macro score is selected to subsequently classify new clients data.
 
-
-#### [top](#table-of-contents)
----------
-## Final Thoughts
-
-It is my first time to make an image classification model, which helped me to learn a lot about the subject, there are processes to improve. It is the first time that I use the Google Colab platform, I usually work on my laptop, which already needs a replacement, but this time I had to look for another alternative to carry out the project. The models are not complex models but the difference in training time between local and cloud-based service is noticeable.
-
-This is my fisrt time to participate the [NUWE](https://nuwe.io/dev/challenges) platform and I think I will become a regular user of its mini-projects (challenges) in order to keep improving my skills.
 
 #### [top](#table-of-contents)
- 
+
 
 [^1]: In order to offer computational resources at no cost, Colab needs to retain the flexibility to adjust usage limits and hardware availability at any time 
