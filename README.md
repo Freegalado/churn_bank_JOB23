@@ -23,7 +23,7 @@
 
 This project was done in a Jupyter Notebook but the model training was done from google Colab since they offer free GPUs and TPUs[^1] in case you want to save some time :wink:.
 
-* <a href="https://colab.research.google.com/github/Freegalado/Sport_Image_Classification_I/blob/main/Talent_Squad_Data_Science_II.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+* <a href="https://colab.research.google.com/github/Freegalado/churn_bank_JOB23/blob/main/churn_bank.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 if you want to open it in locally don't forget to have installed:
 
