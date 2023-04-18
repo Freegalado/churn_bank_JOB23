@@ -8,6 +8,7 @@
 - [Description of the Task](#description-of-the-task)
 - [Decision-making process](#decision-making-process)
     - [Data Pipeline](#data-pipeline)
+- [Conclusions](#conclusions)
 
 
 
@@ -84,6 +85,23 @@ To perform the task, different activities were carried out in 4 stages:
     - In the third stage, the different models are trained and evaluated to understand their behavior, selecting the best model.
 
     - In the fourth stage, the model that has delivered the best F1-macro score is selected to subsequently classify new clients data.
+
+
+#### [top](#table-of-contents)
+--------
+## Conclusions
+
+![model_metrics](https://user-images.githubusercontent.com/91080406/232925525-c2941317-bf1c-4edc-a872-8ea628cf7739.png)
+
+
+
+
+The RF and XGB model have almost the same f1 score, with the XGB being slightly higher (**0.937233**), but has a greater reduction of false negatives. 
+
+
+![false_negatives](https://user-images.githubusercontent.com/91080406/232925216-e2977ea1-a4bd-4fbb-8074-1cdfed2610a6.png)
+
+XGB is chosen because of its slight increase in f1 score but undoubtedly the reduction in false negatives is something of great importance as it represents customers that the model classifies as satisfied with the bank’s service but are really customers who are likely to cease using the bank’s services. 
 
 
 #### [top](#table-of-contents)
